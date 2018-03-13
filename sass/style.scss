@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Berkshire+Swash|Permanent+Marker|Shadows+Into+Light');
 
 body {
-	background-color: #00aced;
+	background: radial-gradient(circle, #1dcaff, #00aced, #0084b4);
 	color: white;
 	margin: 0 auto;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
+
 }
 
+.box {
+	
+}
 
 h1 {
 	font-family: 'Permanent Marker', cursive;
@@ -34,9 +38,16 @@ h3 {
 	color: #00aced;
 	margin: 50px;
 	font-size: 30px;
+	&:hover {
+		color: #0084b4;
+	}
 }
 
 .twitter-button {
 	color: #00aced;
 	font-size: 20px;
+}
+
+.tweet {
+	text-decoration: none !important;
 }
