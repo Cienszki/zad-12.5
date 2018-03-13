@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Berkshire+Swash|Permanent+Marker|Shadows+Into+Light");
+body {
+  background-color: #00aced;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.buttons-container {
+  padding: 50px;
+}
+
+.trigger {
+  color: #00aced;
+  margin: 50px;
+  font-size: 30px;
+}
+
+.twitter-button {
+  color: #00aced;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
